@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ZOD GAMES</title>
+                <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <nav>
+            <h1>ZOD GAMES</h1>
+            <input id="search" type="text" placeholder="Search Games...">
+        </nav>
+        <header class="hero">
+            <h2>Play Games For Free</h2>
+            <p>Instant Play, No Downloads</p>
+        </header>
+        <section class ="categories">
+            <button onlclick="filterCategory('All')">All</button>
+            <button onlclick="filterCategory('Racing')">Racing</button>
+            <button onlclick="filterCategory('Puzzles')">Puzzles</button>
+            <button onlclick="filterCategory('Arcade')">Arcade</button>
+            <button onlclick="filterCategory('Shooting')">Shooting</button>
+            <button onlclick="filterCategory('Soccer')">Soccer</button>
+        </section>
+        <main id="gameContainer" class="grid"></main>
+        <script src="JS/app.js"></script>
+    </body>
+</html>
